@@ -61,4 +61,4 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 * for index.html: inlined style.css
 * for other CSS: minified CSS with https://cssminifier.com/
 * compressed JS with https://jscompress.com/
-* further image reduction with picmonkey.com
+* further image reduction and resizing with picmonkey.com
