@@ -58,4 +58,5 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 * added media="print" to print link href
 * made JS analytics async
 * compressed images with https://compressor.io/
-* minified CSS with https://cssminifier.com/
+* for index.html: inlined style.css
+* for other CSS: minified CSS with https://cssminifier.com/
