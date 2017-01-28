@@ -9,7 +9,7 @@ Steps to optimize Website Performance and FPS:
 * further image reduction and resizing with picmonkey.com
 * deleted google fonts
 
-* change pizza number from 200 to 100
+* change pizza number from 200 to 80
 * function updatePositions: replace querySelectorAll with getElementsByClassName
 * function updatePositions: take out the calculation 'document.body.scrollTop / 1250' out of the for loop for a faster run
 * function updatePositions: replace left with transform
