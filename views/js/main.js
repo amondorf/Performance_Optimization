@@ -506,7 +506,7 @@ function updatePositions() {
   var phaseNew = document.body.scrollTop / 1250;
   for (var i = 0; i < items.length; i++) {
     var phase = Math.sin((phaseNew) + (i % 5));
-// replace left with transform 
+// replace left with transform
     var pizzaString = items[i].basicLeft + 100 * phase + 'px';
     items[i].style.transform = 'translateX('+pizzaString+')';
   }
@@ -528,7 +528,7 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
-  for (var i = 0; i < 100; i++) {
+  for (var i = 0; i < 80; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
