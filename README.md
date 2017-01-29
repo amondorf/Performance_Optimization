@@ -10,7 +10,8 @@ Steps to optimize Website Performance and FPS:
 * deleted google fonts
 
 * change pizza number from 200 to 80
-* function updatePositions: replace querySelectorAll with getElementsByClassName
+* function updatePositions and changePizzaSizes: replace querySelectorAll with getElementsByClassName
 * function updatePositions: take out the calculation 'document.body.scrollTop / 1250' out of the for loop for a faster run
+* function changePizzaSizes: take our var dx and var newwidth out of the for loop
 * function updatePositions: replace left with transform
 * pizza.html: put <div id="movingPizzas1" class="col-md-12"> in its own row to center pizzas, as suggested on the Forum
