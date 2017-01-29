@@ -1,3 +1,5 @@
+Open index.html in a browser. 
+
 Steps to optimize Website Performance and FPS:
 
 * added media="print" to print link href
